@@ -1,0 +1,20 @@
+{
+  "name": "y-websocket-server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "set HOST=localhost && set PORT=1234 && npx y-websocket",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@y/websocket-server": "^0.1.5"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1"
+  }
+}
